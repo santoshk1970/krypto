@@ -1,0 +1,6 @@
+# This file ensures the data directory is tracked in git
+# The actual data files are excluded via .gitignore
+# 
+# To use this project:
+# 1. Add your CSV data files to data/d_binance_30min/
+# 2. Or use the synthetic data generator for testing

@@ -1,0 +1,42 @@
+{
+  "name": "crypto-market-analyzer",
+  "version": "1.0.0",
+  "description": "A Node.js project for analyzing crypto token market data",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "generate-data": "node src/dataGenerator.js",
+    "analyze": "node src/analyzer.js",
+    "analyze-real": "node src/realDataAnalyzer.js",
+    "analyze-advanced": "node src/advancedAnalyzer.js",
+    "batch-analysis": "node batchAnalysis.js",
+    "batch-sample": "node batchAnalysis.js --mode sample",
+    "batch-btc-eth": "node batchAnalysis.js --mode specific --symbols BTCUSDT,ETHUSDT --max-files 10",
+    "db-analysis": "node databaseAnalysis.js",
+    "db-process": "node databaseAnalysis.js --mode process",
+    "db-query": "node databaseAnalysis.js --mode query",
+    "db-test": "node databaseAnalysis.js --mode process --max-files 100 --force",
+    "test": "jest"
+  },
+  "keywords": [
+    "crypto",
+    "stock-market",
+    "analysis",
+    "nodejs",
+    "trading"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.1"
+  }
+}
