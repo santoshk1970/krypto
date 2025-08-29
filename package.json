@@ -19,6 +19,9 @@
     "db-test": "node databaseAnalysis.js --mode process --max-files 100 --force",
     "multi-file": "node multiFileProject.js",
     "multi-file-help": "node multiFileProject.js --help",
+    "ml-analyzer": "python3 crypto_ml_analyzer.py",
+    "ml-help": "python3 crypto_ml_analyzer.py --help",
+    "ml-query": "python3 crypto_ml_analyzer.py --query summary",
     "test": "jest"
   },
   "keywords": [
