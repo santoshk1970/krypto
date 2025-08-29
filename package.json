@@ -17,6 +17,8 @@
     "db-process": "node databaseAnalysis.js --mode process",
     "db-query": "node databaseAnalysis.js --mode query",
     "db-test": "node databaseAnalysis.js --mode process --max-files 100 --force",
+    "multi-file": "node multiFileProject.js",
+    "multi-file-help": "node multiFileProject.js --help",
     "test": "jest"
   },
   "keywords": [
